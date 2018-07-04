@@ -1,0 +1,135 @@
+*, ::after, ::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%; }
+
+/********************12 column layout implimentaion*************/
+.row {
+  display: flex;
+  flex-wrap: wrap; }
+
+.col-12 {
+  flex: 0 0 calc(100% / 12 *12); }
+
+.col-11 {
+  flex: 0 0 calc(100%/ 12 * 11); }
+
+.col-1 {
+  flex: 0 0 calc(100%/ 12 * 1); }
+
+.col-10 {
+  flex: 0 0 calc(100%/ 12* 10); }
+
+.col-2 {
+  flex: 0 0 calc(100%/ 12 * 2); }
+
+.col-9 {
+  flex: 0 0 calc(100%/ 12* 9); }
+
+.col-3 {
+  flex: 0 0 calc(100%/ 12 * 3); }
+
+.col-8 {
+  flex: 0 0 calc(100%/ 12* 8); }
+
+.col-4 {
+  flex: 0 0 calc(100%/ 12 * 4); }
+
+.col-7 {
+  flex: 0 0 calc(100%/ 12* 7); }
+
+.col-5 {
+  flex: 0 0 calc(100%/ 12 * 5); }
+
+.col-6 {
+  flex: 0 0 calc(100%/ 12* 6); }
+
+.hero {
+  background-image: linear-gradient(to bottom, white, #a98da9);
+  display: block; }
+  .hero h3 {
+    font-size: 2rem;
+    margin: 3rem;
+    color: purple;
+    text-align: center; }
+
+.input-button {
+  text-align: center; }
+
+input {
+  width: 20rem;
+  height: 4rem;
+  border: .03rem solid purple;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  color: purple;
+  font-size: 1.3rem;
+  padding-left: 3rem; }
+
+input::-webkit-input-placeholder {
+  font-size: 1.3rem;
+  padding: 2rem; }
+
+button, .btn-class {
+  padding: 1.5rem 5rem;
+  background-image: linear-gradient(105deg, purple, violet);
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  cursor: pointer; }
+
+.result {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  margin-top: 4rem; }
+
+.main {
+  justify-self: end;
+  width: 50%; }
+  .main img {
+    width: 100%;
+    display: block;
+    object-fit: cover; }
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .details a {
+    margin-right: auto; }
+
+h2 {
+  font-size: 1.5rem;
+  color: purple;
+  margin-bottom: 2rem; }
+
+h4 {
+  font-size: 1.2rem;
+  color: purple;
+  padding-top: 3rem;
+  margin-bottom: 3rem; }
+
+.btn-class {
+  text-decoration: none;
+  cursor: pointer; }
+
+html {
+  /* Setting font-size to 62.5% allows 1rem to be 10px */
+  font-size: 62.5%; }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media (max-width: 37.5em) {
+    html {
+      font-size: 40%; } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }

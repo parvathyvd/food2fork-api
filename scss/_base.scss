@@ -1,0 +1,20 @@
+
+html {
+    /* Setting font-size to 62.5% allows 1rem to be 10px */
+    // Setting font size allows us to size the entire page this is why it stays in base and does not go into typography
+    font-size: 62.5%;
+    // Media queries
+    @include respond(tab-land) {
+    font-size: 56.25%; //1rem = 9px, 9/16 = 56.25%;
+    }
+    @include respond(tab-port) {
+    font-size: 50%; //1rem = 8px, 8/16 = 50%
+    }
+    @include respond(phone) {
+    font-size: 40%; //1rem = 4.8px
+    }
+    @include respond(big-desktop) {
+    font-size: 75%; //1rem = 12px 12/16 = 75%;
+    }
+   }
+   

@@ -1,0 +1,14 @@
+{
+  "name": "food2fork-api",
+  "version": "1.0.0",
+  "description": "Food 2 Fork",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass ./scss/custom.scss ./css/custom.css -w"
+  },
+  "author": "Parvathy",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  }
+}

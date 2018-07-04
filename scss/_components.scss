@@ -1,0 +1,77 @@
+.hero{
+    background-image: linear-gradient(to bottom,white,rgb(169, 141, 169));
+    display: block;
+    h3{
+        font-size: 2rem;
+        margin: 3rem;
+        color: purple;
+        text-align: center;
+}
+}
+.input-button{
+   text-align: center;
+}
+input{
+    width: 20rem;
+    height: 4rem;
+    border: .03rem solid purple;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.3);
+    margin: 0 auto;
+    color: purple;
+    font-size: 1.3rem;
+    padding-left: 3rem;
+}
+input::-webkit-input-placeholder{
+    font-size: 1.3rem;
+    padding:2rem;
+}
+button,.btn-class{
+    padding: 1.5rem 5rem;
+    background-image: linear-gradient(105deg,purple,violet);
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    outline:none;
+    cursor: pointer;
+}
+
+.result{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem;
+    margin-top: 4rem;
+   
+}
+.main{
+    justify-self: end;
+    width: 50%;
+    img{
+        width: 100%;
+        display: block;
+        object-fit: cover;
+    }
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    a{
+        margin-right: auto;
+    }
+}
+h2{
+    font-size: 1.5rem;
+    color: purple;
+    margin-bottom: 2rem;
+
+}
+h4{
+    font-size: 1.2rem;
+    color: purple;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+}
+.btn-class{
+    text-decoration: none;
+    cursor: pointer;
+}
